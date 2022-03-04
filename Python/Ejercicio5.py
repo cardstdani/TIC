@@ -9,7 +9,7 @@ l.append(input("Dirección del cliente: \n"))
 l.append(input("Nombre del producto: \n"))
 
 total = round(l[0]*l[1], 2)
-descuento = round(-((total)*0.10) * (1 if l[2] == "s" else 0), 2)
+descuento = round(-((total)*0.15) * (1 if l[2] == "s" else 0), 2)
 totalTrasDescuento = total+descuento
 iva = round((total+descuento)*0.21, 2)
 final = round((total+descuento) + iva, 2)
