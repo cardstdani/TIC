@@ -25,7 +25,7 @@ print(
     f"\n{'':<30}{l[3]:>10}",
     f"\n{'':<30}{l[5]:>10}",
     f"\n{'':<30}{l[4]:>10}",
-    f"\nProducto {l[6]:>12}",
+    f"\nProducto {l[6]}",
     f"\n{'Precio unitario':<30}{l[0]:>10}",
     f"\n{'Unidades':<30}{l[1]:>10}",
     f"\n{'Total':<30}{total:>10}",
