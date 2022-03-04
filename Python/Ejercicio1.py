@@ -3,7 +3,7 @@ i = 0
 while i < 3:
     inp = input("Introduce un número:\n")
     if inp.isnumeric():
-        l.append(inp)
+        l.append(int(inp))
         i += 1
     else:
         print("Error;\n")
@@ -36,7 +36,7 @@ def mergeSort(li):
     mid = len(li)//2
     return merge(mergeSort(li[:mid]), mergeSort(li[mid:]))
 
-print(",".join(mergeSort(l)))
+print(",".join([str(i) for i in mergeSort(l)]))
 
 #Solución simple
 l = []
